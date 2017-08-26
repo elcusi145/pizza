@@ -582,6 +582,11 @@ public class Listado_empleados extends javax.swing.JFrame implements Runnable  {
         jBAgregarCadete.setContentAreaFilled(false);
         jBAgregarCadete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jBAgregarCadete.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/Cadete_hover.png"))); // NOI18N
+        jBAgregarCadete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBAgregarCadeteActionPerformed(evt);
+            }
+        });
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(53, 94, 122));
@@ -952,6 +957,10 @@ public class Listado_empleados extends javax.swing.JFrame implements Runnable  {
             }
         
     }//GEN-LAST:event_jBEliminarUsuarioActionPerformed
+
+    private void jBAgregarCadeteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgregarCadeteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jBAgregarCadeteActionPerformed
 
     /**
      * @param args the command line arguments
